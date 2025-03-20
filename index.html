@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration & Contacts</title>
+    <link rel="stylesheet" href="styes.css">
+    
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>C.E.O JACKIE Website</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Favourate colours</h2>
+        <ol type="I">
+            <li>maroon</li>
+            <li>baby pink</li>
+            <li>gold</li>
+            <li>green</li>
+            <li>blue</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>Beautiful Nature</h2>
+        <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" alt="Nature Image from Pexels" width="600">
+    </section>
+
+    <!-- Contact Table -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>password</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>daniel mutava</td>
+                    <td>1234690lmb@#</td>
+                    <td>0792784711</td>
+                    <td>daniel123@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Denis Muuo</td>
+                    <td>123456789</td>
+                    <td>0798765432</td>
+                    <td>denis234@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>imani awere</td>
+                    <td>23456789</td>
+                    <td>0712345678</td>
+                    <td>imani@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>amina alice</td>
+                    <td>101 Maple St, FL</td>
+                    <td>+1 765 432 109</td>
+                    <td>alice123@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>merry mercy</td>
+                    <td>202 Elm St, WA</td>
+                    <td>+1 321 654 987</td>
+                    <td>mercymerry@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Register Here</h2>
+        <form action="submit.php" method="POST">
+            <!-- Name Field -->
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a secure password" required>
+            <br><br>
+
+            <!-- Date Field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <!-- Dropdown -->
+            <label for="country">Select Your Country:</label>
+            <select id="country" name="country" required>
+                <option value="">-- Select --</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Canada">Canada</option>
+                <option value="Australia">Australia</option>
+            </select>
+            <br><br>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <br><br>
+
+            <!-- Checkboxes -->
+            <label>Interests:</label>
+            <input type="checkbox" id="coding" name="interests" value="Coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="music" name="interests" value="Music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="sports" name="interests" value="Sports">
+            <label for="sports">Sports</label>
+            <br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 My Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
